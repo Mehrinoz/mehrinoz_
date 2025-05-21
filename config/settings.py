@@ -128,8 +128,8 @@ STATIC_URL = 'static/'
 # STATICFILES_DIRS = [BASE_DIR /'static']
 # STATIC_ROOT = BASE_DIR /'staticfiles'
 
-STATICFILES_DIRS = ('/home/shermat1/shermatov-darslari.uz/mehrinoz_/static', )
-STATIC_ROOT = '/home/shermat1/shermatov-darslari.uz/mehrinoz_/staticfiles'
+STATICFILES_DIRS = ('/home/mehrinoz/shermatov-darslari.uz/mehrinoz_/static', )
+STATIC_ROOT = '/home/mehrinoz/shermatov-darslari.uz/mehrinoz_/staticfiles'
 
 STATICFILES_FINDERS = [
 'django.contrib.staticfiles.finders.FileSystemFinder',
@@ -137,7 +137,7 @@ STATICFILES_FINDERS = [
 ]
 MEDIA_URL = 'media/'
 # MEDIA_ROOT = BASE_DIR/'media'
-MEDIA_ROOT ='/home/shermat1/shermatov-darslari.uz/mehrinoz_/media'
+MEDIA_ROOT ='/home/mehrinoz/shermatov-darslari.uz/mehrinoz_/media'
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
